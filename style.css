@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(247, 249, 249);
+}
+
+.Review{
+  max-width: 100vh;
+  background-color: white;
+  padding:40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(5, 5, 5, 0.2);
+}
+
+.js-title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(54, 53, 53);
+  margin-bottom: 20px;
+  text-decoration: underline  rgb(23, 112, 150);
+  text-underline-offset: 5px;/*to give space between the text and the underline*/
+}
+
+
+  .name {
+      font-size: 24px;
+      font-weight:400px;
+      color: #333;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+    .occupation {
+      font-size: 18px;
+      color: #68a3ad;
+      margin-bottom: 20px;
+    }
+    .content{
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-size: 16px;
+    }
+    .previous,.next{
+      background-color: rgb(5, 20, 96);
+      color:white;
+      padding:4px 15px 4px 15px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 5px;
+    }
